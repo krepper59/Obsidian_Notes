@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "860b85ac294fbf7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "178add7db95d4b06",
+        "type": "tabs",
+        "dimension": 79.6527159394479,
+        "children": [
+          {
+            "id": "23788dbffbfe6e7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Active Directory/Linux Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Enumeration"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f72ecfd9dcb2288a",
+        "type": "tabs",
+        "dimension": 20.34728406055209,
+        "children": [
+          {
+            "id": "c592b72ea1c635c1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8ec2af9f7036fc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b5acc5227d9c276",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f70f46ec20643d6c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "88c16735a8de659f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "eb0a398ac75b3aa2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.5
+  },
+  "right": {
+    "id": "8fb122a05614ed6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ef13d64bf416f06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "795e982ffb4db461",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Active Directory/Linux Enumeration.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "e0eb05208ab9bf5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Active Directory/Linux Enumeration.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "beed27e3a55ce711",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ea2100747bea1948",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a913f7dad78766c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Active Directory/Linux Enumeration.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "23788dbffbfe6e7a",
+  "lastOpenFiles": [
+    "Active Directory/Windows Enumeration.md",
+    "Active Directory/Linux Enumeration.md",
+    "Active Directory/Attacks.md",
+    "Methodologies",
+    "Reconnaissance",
+    "Privilege Escalation",
+    "Web Attacks",
+    "Services and Protocols",
+    "Welcome.md",
+    "Active Directory"
+  ]
+}
