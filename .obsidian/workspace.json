@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Services and Protocols/RPC.md",
+                "file": "Services and Protocols/WinRM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RPC"
+              "title": "WinRM"
             }
           }
         ]
@@ -213,21 +213,30 @@
   },
   "active": "23788dbffbfe6e7a",
   "lastOpenFiles": [
-    "Services and Protocols/FTP.md",
+    "Services and Protocols/SSH.md",
+    "Services and Protocols/WinRM.md",
+    "Services and Protocols/IPMI.md",
+    "Services and Protocols/Oracle TNS.md",
+    "Services and Protocols/SNMP.md",
+    "Services and Protocols/NFS.md",
+    "Active Directory/DCSync.md",
+    "Active Directory/Trusts.md",
+    "Active Directory/Miscellaneous.md",
+    "Active Directory/Linux Enumeration.md",
+    "Active Directory/LDAP Filters.md",
+    "Active Directory/Kerberoasting.md",
+    "Services and Protocols/Email.md",
+    "Services and Protocols/DNS.md",
+    "Services and Protocols/RDP.md",
     "Services and Protocols/RPC.md",
+    "Services and Protocols/FTP.md",
     "Services and Protocols/SMB.md",
     "Services and Protocols/SQL.md",
-    "Active Directory/Miscellaneous.md",
-    "Active Directory/LDAP Filters.md",
     "Active Directory/ACL's.md",
     "Active Directory/ASREPRoasting.md",
     "Active Directory/Attacks.md",
     "Active Directory/Credential Hunting.md",
-    "Active Directory/DCSync.md",
-    "Active Directory/Kerberoasting.md",
-    "Active Directory/Linux Enumeration.md",
     "Active Directory/Windows Enumeration.md",
-    "Active Directory/Trusts.md",
     "Methodologies",
     "Reconnaissance",
     "Privilege Escalation",
