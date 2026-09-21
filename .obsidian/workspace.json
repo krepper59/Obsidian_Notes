@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Linux Enumeration.md",
+                "file": "Active Directory/ACL's.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Enumeration"
+              "title": "ACL's"
             }
           }
         ]
@@ -33,10 +33,14 @@
             "id": "c592b72ea1c635c1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Active Directory/ACL's.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ACL's"
             }
           }
         ]
@@ -197,6 +201,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -208,9 +213,13 @@
   },
   "active": "23788dbffbfe6e7a",
   "lastOpenFiles": [
-    "Active Directory/Windows Enumeration.md",
-    "Active Directory/Linux Enumeration.md",
     "Active Directory/Attacks.md",
+    "Active Directory/Windows Enumeration.md",
+    "Active Directory/Miscellaneous.md",
+    "Active Directory/Linux Enumeration.md",
+    "Active Directory/Kerberoasting.md",
+    "Active Directory/DCSync.md",
+    "Active Directory/ACL's.md",
     "Methodologies",
     "Reconnaissance",
     "Privilege Escalation",
