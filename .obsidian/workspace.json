@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/ACL's.md",
+                "file": "Active Directory/LDAP Filters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACL's"
+              "title": "LDAP Filters"
             }
           }
         ]
@@ -213,13 +213,17 @@
   },
   "active": "23788dbffbfe6e7a",
   "lastOpenFiles": [
-    "Active Directory/Attacks.md",
-    "Active Directory/Windows Enumeration.md",
-    "Active Directory/Miscellaneous.md",
-    "Active Directory/Linux Enumeration.md",
-    "Active Directory/Kerberoasting.md",
-    "Active Directory/DCSync.md",
     "Active Directory/ACL's.md",
+    "Active Directory/LDAP Filters.md",
+    "Active Directory/ASREPRoasting.md",
+    "Active Directory/Attacks.md",
+    "Active Directory/Credential Hunting.md",
+    "Active Directory/DCSync.md",
+    "Active Directory/Kerberoasting.md",
+    "Active Directory/Linux Enumeration.md",
+    "Active Directory/Windows Enumeration.md",
+    "Active Directory/Trusts.md",
+    "Active Directory/Miscellaneous.md",
     "Methodologies",
     "Reconnaissance",
     "Privilege Escalation",
