@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Windows Enumeration.md",
+                "file": "Tools/SQLMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows Enumeration"
+              "title": "SQLMap"
             }
           }
         ]
@@ -191,6 +191,9 @@
   },
   "active": "23788dbffbfe6e7a",
   "lastOpenFiles": [
+    "Tools/Ffuf.md",
+    "Tools/SQLMap.md",
+    "Active Directory/Windows Enumeration.md",
     "Active Directory/Trusts.md",
     "Tools/Firewalld.md",
     "Tools/Ligolo-ng.md",
@@ -201,7 +204,6 @@
     "Privilege Escalation/Windows.md",
     "Active Directory/ACL's.md",
     "Active Directory/Miscellaneous.md",
-    "Active Directory/Windows Enumeration.md",
     "Services and Protocols/WMI.md",
     "Services and Protocols/WinRM.md",
     "Services and Protocols/SSH.md",
@@ -216,8 +218,6 @@
     "Services and Protocols/Email.md",
     "Services and Protocols/DNS.md",
     "Services and Protocols/RDP.md",
-    "Services and Protocols/RPC.md",
-    "Services and Protocols/FTP.md",
     "Methodologies",
     "Reconnaissance",
     "Privilege Escalation",
