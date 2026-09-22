@@ -192,6 +192,20 @@ Bring systems and the network back to normal operation with heavy monitoring for
 3. Changes to the registry in locations that are usually modified by malware.
 ```
 #### Post-Incident Activity
+```
+Incident Resolved -> Post-Incident Review -> Lessons Learned Meeting -> Root Cause Analysis -> Update Policies & Playbooks -> Enhance Detection & Monitoring Rules -> Knowledge Sharing & Awareness -> Report and Close Case
+
+Post-Incident is the best time to train junior members on lessons learned and develop new capabilities based on the incident reporting.
+```
+###### Reporting
+```
+1. What happened and when?
+2. How did the team perform in dealing with the incident in regard to plans, playbooks, policies, and procedures?
+3. Did the business provide the necessary information and respond promptly to aid in handling the incident efficiently? What can be improved?
+4. What actions have been implemented to contain and eradicate the incident?
+5. What preventive measures should be put in place to prevent similar incidents in the future?
+6. What tools and resources are needed to detect and analyze similar incidents in the future?
+```
 
 ### Activities
 

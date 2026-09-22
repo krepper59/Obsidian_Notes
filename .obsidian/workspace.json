@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Incident Response/Incident Handling.md",
+                "file": "Incident Response/HTB Scenario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Incident Handling"
+              "title": "HTB Scenario"
             }
           }
         ]
@@ -191,8 +191,10 @@
   },
   "active": "31eff3714d95f0b9",
   "lastOpenFiles": [
-    "Incident Response/Tips.md",
+    "Pasted image 20260922173748.png",
+    "Pasted image 20260922172422.png",
     "Incident Response/Incident Handling.md",
+    "Incident Response/Tips.md",
     "NOTE!.md",
     "Incident Response/HTB Scenario.md",
     "Pentesting/Active Directory/LDAP Filters.md",
@@ -219,7 +221,6 @@
     "Pentesting/Services and Protocols/Oracle TNS.md",
     "Pentesting/Services and Protocols/SNMP.md",
     "Pentesting/Services and Protocols/NFS.md",
-    "Pentesting/Active Directory/DCSync.md",
     "Pentesting/Methodologies",
     "Pentesting/Reconnaissance",
     "Pentesting/Privilege Escalation",
