@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "178add7db95d4b06",
+        "id": "35c56e3f8b9c7ee4",
         "type": "tabs",
         "children": [
           {
-            "id": "23788dbffbfe6e7a",
+            "id": "31eff3714d95f0b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Incident Response/HTB Scenario.md",
+                "file": "Incident Response/Incident Handling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTB Scenario"
+              "title": "Incident Handling"
             }
           }
         ]
@@ -189,8 +189,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "23788dbffbfe6e7a",
+  "active": "31eff3714d95f0b9",
   "lastOpenFiles": [
+    "NOTE!.md",
     "Incident Response/Incident Handling.md",
     "Incident Response/HTB Scenario.md",
     "Pentesting/Active Directory/LDAP Filters.md",
@@ -219,7 +220,6 @@
     "Pentesting/Services and Protocols/NFS.md",
     "Pentesting/Active Directory/DCSync.md",
     "Pentesting/Active Directory/Linux Enumeration.md",
-    "Pentesting/Active Directory/Kerberoasting.md",
     "Pentesting/Methodologies",
     "Pentesting/Reconnaissance",
     "Pentesting/Privilege Escalation",
