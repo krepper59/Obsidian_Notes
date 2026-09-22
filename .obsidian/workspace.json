@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Incident Response/Incident Handling.md",
+                "file": "Incident Response/HTB Scenario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Incident Handling"
+              "title": "HTB Scenario"
             }
           }
         ]
@@ -191,8 +191,8 @@
   },
   "active": "23788dbffbfe6e7a",
   "lastOpenFiles": [
-    "Incident Response/HTB Scenario.md",
     "Incident Response/Incident Handling.md",
+    "Incident Response/HTB Scenario.md",
     "Pentesting/Active Directory/LDAP Filters.md",
     "Incident Response",
     "Pentesting",
