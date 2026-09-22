@@ -128,6 +128,8 @@ Timeline
 1. Date
 2. Time of Event
 3. Hostname
+4. Event Description
+5. Data Source
 ```
 ### Activities
 
