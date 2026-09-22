@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Incident Response/Security Monitoring & SIEM Fundementals.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -191,6 +191,9 @@
   },
   "active": "31eff3714d95f0b9",
   "lastOpenFiles": [
+    "Pasted image 20260922193519.png",
+    "Pasted image 20260922192925.png",
+    "Pasted image 20260922192913.png",
     "Incident Response/HTB Scenario.md",
     "Incident Response/Security Monitoring & SIEM Fundementals.md",
     "Incident Response/Incident Handling.md",
@@ -227,7 +230,6 @@
     "Pentesting/Services and Protocols/IPMI.md",
     "Pentesting/Services and Protocols/Oracle TNS.md",
     "Pentesting/Services and Protocols/SNMP.md",
-    "Pentesting/Services and Protocols/NFS.md",
     "Pentesting/Methodologies",
     "Pentesting/Reconnaissance",
     "Pentesting/Privilege Escalation",
