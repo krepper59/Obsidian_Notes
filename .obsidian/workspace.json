@@ -191,8 +191,9 @@
   },
   "active": "31eff3714d95f0b9",
   "lastOpenFiles": [
-    "NOTE!.md",
+    "Incident Response/Tips.md",
     "Incident Response/Incident Handling.md",
+    "NOTE!.md",
     "Incident Response/HTB Scenario.md",
     "Pentesting/Active Directory/LDAP Filters.md",
     "Incident Response",
@@ -219,7 +220,6 @@
     "Pentesting/Services and Protocols/SNMP.md",
     "Pentesting/Services and Protocols/NFS.md",
     "Pentesting/Active Directory/DCSync.md",
-    "Pentesting/Active Directory/Linux Enumeration.md",
     "Pentesting/Methodologies",
     "Pentesting/Reconnaissance",
     "Pentesting/Privilege Escalation",

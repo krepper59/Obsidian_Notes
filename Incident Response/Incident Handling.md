@@ -123,7 +123,7 @@ Collaboration between Red Team and Blue Team to see visibility into monitoring a
 6. Physical location, operating systems, IP addresses and hostnames, system owner, system's purpose, current state of the system.
 7. List of IP addresses, if malware is involved, time and date of detection, type of malware, systems impacted, export of malicious files with forensic information on them (such as hashes, copies of the files, etc.).
 ```
-Timeline
+###### Timeline
 ```
 1. Date
 2. Time of Event
@@ -131,6 +131,68 @@ Timeline
 4. Event Description
 5. Data Source
 ```
+###### Incident Severity & Questions
+```
+1. What is the exploitation impact?
+2. What are the exploitation requirements?
+3. Can any business-critical systems be affected by the incident?
+4. Are there any suggested remediation steps?
+5. How many systems have been impacted?
+6. Is the exploit being used in the wild?
+7. Does the exploit have any worm-like capabilities?
+```
+###### The Investigation
+```
+Iterative Process:
+1. Creation and usage of indicators of compromise (IOCs).
+2. Identification of new leads and impacted systems.
+3. Data collection and analysis from the new leads and impacted systems.
+```
+##### IOC Creation & Usage
+```
+IOC - Sign that an incident has occurred (IP, hash, file names)
+1. OpenIOC
+2. YARA
+
+IOC Editor: Tool to create and edit IOC's
+
+STIX (Structured Threat Information eXpression):
+Open-source machine-readable language and serialization format in JSON to exchange Cyber Threat Intelligence (CTI)
+```
+###### Collect & Preserve State
+```
+Note volatility of data, perform live analysis where applicable to maintain in-memory artifacts.
+Keep track of chain of custody for incidents where data needs to be court-admissible.
+```
+###### Ai Threat Detection
+```
+Elastic Security Attack Discovery - analyzes events, summarizes, and clusters relevant alerts
+
+1. Automated Triage & Alert Prioritization
+2. Incident Correlation & Timeline Reconstruction
+3. Automated Response Playbooks
+4. AI Assistance in Post-Incident Analysis & Learning
+```
+#### Containment, Eradication, & Recovery
+Prevent the ongoing incident from causing more damage, prevent further spread and eliminate current threat.
+###### Containment
+```
+Short-Term Containment: actions taken leave minimal footprint (Ex: isolating system in VLAN, pulling network cable, modifying attackers C2 to redirect to a system we own.) and backups are created.
+Long-Term Containment: persistent actions and changes (Ex: password changes, firewalls, EDR, patches, shutdowns.)
+```
+###### Eradication
+```
+Eliminate the root cause of the incident and any remaining artifacts from the incident (Ex: removing malware, rebuilding and restoring affected systems, system hardening.)
+```
+###### Recovery
+```
+Bring systems and the network back to normal operation with heavy monitoring for further activity, looking for:
+1. Unusual logons (e.g., user or service accounts that have never logged-in there before).
+2. Unusual processes.
+3. Changes to the registry in locations that are usually modified by malware.
+```
+#### Post-Incident Activity
+
 ### Activities
 
 | Actvity       | Description                                                               |
