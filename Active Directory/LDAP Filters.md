@@ -130,8 +130,14 @@ ldapsearch -x -H ldap://<IP> -b "DC=<DOMAIN>,DC=<DOMAIN>" "(&(objectClass=group)
 python3 windapsearch.py --dc-ip <IP> -u "" --functionality						#confirm anonymous bind and get domain function level
 python3 windapsearch.py --dc-ip <IP> -u "" -U									#pull list of all domain users
 python3 windapsearch.py --dc-ip <IP> -u "" -C									#get information about all domain computers
+python3 windapsearch.py --dc-ip 10.129.1.207 -u inlanefreight\\james.cross --da
+python3 windapsearch.py --dc-ip 10.129.1.207 -d inlanefreight.local -u inlanefreight\\james.cross --unconstrained-users																	#users/computers with unconstrained deleg
+python3 windapsearch.py --dc-ip 10.129.42.188 -u inlanefreight\\james.cross --custom "(&(objectClass=user)(userAccountControl:1.2.840.113556.1.4.803:=128))"							#using LDAP filter
 ```
 #### LDAPSearch-AD
 ```
 python3 ldapsearch-ad.py -l <IP> -t info
+python3 ldapsearch-ad.py -l 10.129.1.207 -d inlanefreight -u james.cross -p Summer2020 -t pass-pols																						#password policy
+python3 ldapsearch-ad.py -l 10.129.1.207 -d inlanefreight -u james.cross -p Summer2020 -t kerberoast | grep servicePrincipalName:														#kerberoastable users
+python3 ldapsearch-ad.py -l 10.129.1.207 -d inlanefreight -u james.cross -p Summer2020 -t asreproast																					#ASREProastable users
 ```
