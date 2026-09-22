@@ -39,7 +39,7 @@ portal.insightnexus.com
 	
 	Artifacts:
 		1. checkme.txt (webserver root) - "SilentJackal was here"
-		2. diagnostics_data.zip - packaged stolen client materials from Crimson Fox
+		2. diagnostics_data.zip - packaged stolen client materials from Crimson Fox, uploaded to 93.184.216.34
 		3. C:\Windows\Temp\java-update.msi - creates a scheduled task to run a process to perform spying/exfiltration
 ```
 ###### Environment & Assets
