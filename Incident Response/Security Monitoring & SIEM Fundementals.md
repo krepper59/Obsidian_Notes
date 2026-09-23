@@ -36,6 +36,17 @@ https://www.elastic.co/guide/en/beats/winlogbeat/current/exported-fields-securit
 https://www.elastic.co/guide/en/beats/filebeat/current/exported-fields.html                  Filebeat Fields
 https://www.elastic.co/guide/en/beats/filebeat/current/exported-fields-ecs.html              Filebeat ECS Fields
 ```
+###### Elastic Common Schema (ECS)
+```
+Vocabulary for events and logs across the Elastic Stack.
+Advantages of KQL in ECS:
+	1. Unified Data View - data from multiple sources can be searched using the same fields
+	2. Improved Search Efficiency - standardized names simplify KQL queries
+	3. Enhanced Correlation - data from different sources can be correlated together
+	4. Better Visualizations - consistent field names simplifies visualization efforts in Kibana
+	5. Interoperability with Elastic Solutions - Elastic Security, Elastic Observability, Elastic Machine Learning
+	6. Future-proofing - new features and enhancements seamlessly integrate
+```
 #### Diagrams
 ![[Pasted image 20260922192913.png|635]]
 ![[Pasted image 20260922192925.png|638]]
