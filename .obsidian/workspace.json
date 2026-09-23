@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Incident Response/Security Monitoring & SIEM Fundementals.md",
+                "file": "Incident Response/SIEM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Security Monitoring & SIEM Fundementals"
+              "title": "SIEM"
             }
           }
         ]
@@ -191,12 +191,13 @@
   },
   "active": "31eff3714d95f0b9",
   "lastOpenFiles": [
+    "Incident Response/Incident Handling.md",
+    "Incident Response/SOC.md",
+    "Incident Response/SIEM.md",
     "Pasted image 20260922193519.png",
     "Pasted image 20260922192925.png",
     "Pasted image 20260922192913.png",
     "Incident Response/HTB Scenario.md",
-    "Incident Response/Security Monitoring & SIEM Fundementals.md",
-    "Incident Response/Incident Handling.md",
     "Pasted image 20260922180315.png",
     "Pasted image 20260922180242.png",
     "Pasted image 20260922175916.png",
@@ -204,7 +205,6 @@
     "Pasted image 20260922175400.png",
     "Pasted image 20260922175009.png",
     "Pasted image 20260922173748.png",
-    "Pasted image 20260922172422.png",
     "Incident Response/Tips.md",
     "NOTE!.md",
     "Pentesting/Active Directory/LDAP Filters.md",
