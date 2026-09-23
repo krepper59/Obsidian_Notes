@@ -58,5 +58,21 @@ Event ID 7045 (A service was installed in the system)
 ```
 ### Sysmon
 ```
+Components:
+1. A Windows service for monitoring system activity.
+2. A device driver that assists in capturing the system activity data.
+3. An event log to display captured activity data.
 
+Sysmon Event ID's: https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+
+Configurations:
+https://github.com/SwiftOnSecurity/sysmon-config
+https://github.com/olafhartong/sysmon-modular
+
+Install:
+sysmon.exe -i -accepteula -h md5,sha256,imphash -l -n
+sysmon.exe -c configuration.xml
+
+Sysmon for Linux:
+https://github.com/Sysinternals/SysmonForLinux
 ```
