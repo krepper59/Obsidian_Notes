@@ -80,3 +80,7 @@ sysmon.exe -c configuration.xml
 Sysmon for Linux:
 https://github.com/Sysinternals/SysmonForLinux
 ```
+### Event Tracing
+```
+
+```
