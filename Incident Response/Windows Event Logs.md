@@ -56,3 +56,7 @@ Event ID 5145 (A network share object was checked to see whether client can be g
 Event ID 5157 (The Windows Filtering Platform has blocked a connection)
 Event ID 7045 (A service was installed in the system)
 ```
+### Sysmon
+```
+
+```
