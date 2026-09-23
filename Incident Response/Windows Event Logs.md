@@ -63,7 +63,11 @@ Components:
 2. A device driver that assists in capturing the system activity data.
 3. An event log to display captured activity data.
 
-Sysmon Event ID's: https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+Event Viewer:
+Applications and Services -> Microsoft -> Windows -> Sysmon
+
+Sysmon Event ID's: 
+https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
 
 Configurations:
 https://github.com/SwiftOnSecurity/sysmon-config
