@@ -1,1 +1,2 @@
 Use tools that don't cache credentials when logging into systems to investigate with privileged accounts (Ex: WinRM, logon type 3 Network Logon)
+Common Parent-Child Processes: https://twitter.com/SBousseaden/status/1195373669930983424
