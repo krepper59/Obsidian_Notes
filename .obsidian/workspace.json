@@ -179,20 +179,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "31eff3714d95f0b9",
   "lastOpenFiles": [
-    "Incident Response/SOC.md",
+    "Pasted image 20260924080618.png",
+    "Incident Response/HTB Scenario.md",
     "Incident Response/Windows Event Logs.md",
+    "Incident Response/SOC.md",
     "Images/Pasted image 20260922192925.png",
     "Images/Pasted image 20260922193519.png",
     "Images/Pasted image 20260922192913.png",
@@ -205,7 +207,6 @@
     "Images/Pasted image 20260922175009.png",
     "Incident Response/SIEM.md",
     "Incident Response/Incident Handling.md",
-    "Incident Response/HTB Scenario.md",
     "Images",
     "Incident Response/Tips.md",
     "NOTE!.md",
@@ -230,7 +231,6 @@
     "Pentesting/Services and Protocols/WinRM.md",
     "Pentesting/Services and Protocols/SSH.md",
     "Pentesting/Services and Protocols/IPMI.md",
-    "Pentesting/Services and Protocols/Oracle TNS.md",
     "Pentesting/Methodologies",
     "Pentesting/Reconnaissance",
     "Pentesting/Privilege Escalation",
