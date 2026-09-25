@@ -226,12 +226,48 @@ Get-WinEvent -Path "C:\Logs\DLLHijack\*.evtx" -FilterXPath "*[System[EventID=7]]
 ```
 
 ```
-<QueryList>
-  <Query Id="0" Path="file://C:\Logs\DLLHijack\*.evtx">
-    <Select Path="Microsoft-Windows-Sysmon/Operational">*[System[(EventID=7)]]
-    and 
-    *[EventData[Data[@Name='Signed']='false']]
-</Select>
-  </Query>
-</QueryList>
+Get-WinEvent -Path "C:\Logs\DLLHijack\*.evtx" -FilterXPath "*[System[EventID=7]]" | 
+ForEach-Object {
+	$Xml = [xml]$_.ToXml()
+	$EventData = $Xml.Event.EventData.Data 
+	
+	[PSCustomObject]@{
+		TimeCreated = $_.TimeCreated
+		Process = ($EventData | Where-Object { $_.Name -eq 'Image'}).'#text'
+		DLLLoaded = ($EventData | Where-Object { $_.Name -eq 'ImageLoaded'}).'#text'
+		Signed = ($EventData | Where-Object { $_.Name -eq 'Signed'}).'#text'
+		Signature = ($EventData | Where-Object { $_.Name -eq 'Signature'}).'#text'
+	} 
+} | Out-GridView
+```
+###### Challenge: determine the process that executed unmanaged PowerShell code
+	Look for System.Management.Automation.dll, clr.dll, clrjit.dll, mscoree.dll
+```
+Get-WinEvent -Path  "C:\Logs\PowershellExec\*.evtx" -FilterXPath "*[System[EventID=7]]" | 
+ForEach-Object {
+	$Xml = [xml]$_.ToXml()
+	$EventData = $Xml.Event.EventData.Data 
+	
+	[PSCustomObject]@{
+		TimeCreated = $_.TimeCreated
+		Process = ($EventData | Where-Object { $_.Name -eq 'Image'}).'#text'
+		DLLLoaded = ($EventData | Where-Object { $_.Name -eq 'ImageLoaded'}).'#text'
+		Signed = ($EventData | Where-Object { $_.Name -eq 'Signed'}).'#text'
+	} 
+} | Out-GridView
+```
+Challenge: determine the process that injected into the process that executed unmanaged PowerShell code
+```
+Get-WinEvent -Path  "C:\Logs\PowershellExec\*.evtx" -FilterXPath "*[System[EventID=7]]" | 
+ForEach-Object {
+	$Xml = [xml]$_.ToXml()
+	$EventData = $Xml.Event.EventData.Data 
+	
+	[PSCustomObject]@{
+		TimeCreated = $_.TimeCreated
+		Process = ($EventData | Where-Object { $_.Name -eq 'Image'}).'#text'
+		DLLLoaded = ($EventData | Where-Object { $_.Name -eq 'ImageLoaded'}).'#text'
+		Signed = ($EventData | Where-Object { $_.Name -eq 'Signed'}).'#text'
+	} 
+} | Out-GridView
 ```
