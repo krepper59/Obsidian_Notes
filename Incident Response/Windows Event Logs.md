@@ -216,3 +216,11 @@ Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational'; 
 ```
 Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational'; ID=1} | Where-Object {$_.Properties[21].Value -like "*-enc*"} | Format-List
 ```
+###### Challenge: Find when share \*\PRINT was added:
+```
+Get-WinEvent -Path "C:\Tools\chainsaw\EVTX-ATTACK-SAMPLES\Lateral Movement\*.evtx" -FilterXPath "*[System[EventID=5142]]"
+```
+###### Challenge: determine the process responsible for executing a DLL hijacking attack
+```
+Get-WinEvent -Path "C:\Logs\DLLHijack\*.evtx" -FilterXPath "*[System[EventID=7]]"
+```
