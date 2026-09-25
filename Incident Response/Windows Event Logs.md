@@ -224,3 +224,14 @@ Get-WinEvent -Path "C:\Tools\chainsaw\EVTX-ATTACK-SAMPLES\Lateral Movement\*.evt
 ```
 Get-WinEvent -Path "C:\Logs\DLLHijack\*.evtx" -FilterXPath "*[System[EventID=7]]"
 ```
+
+```
+<QueryList>
+  <Query Id="0" Path="file://C:\Logs\DLLHijack\*.evtx">
+    <Select Path="Microsoft-Windows-Sysmon/Operational">*[System[(EventID=7)]]
+    and 
+    *[EventData[Data[@Name='Signed']='false']]
+</Select>
+  </Query>
+</QueryList>
+```
