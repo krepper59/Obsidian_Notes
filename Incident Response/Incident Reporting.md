@@ -97,5 +97,26 @@ Lessons Learned:
 ```
 #### Diagrams
 ```
-
+1. Incident Flow Chart
+2. Affcted Systems Map
+3. Attack Vector Diagram
+```
+![[Pasted image 20261005125939.png|485]]
+#### Appendices
+```
+- Log Files
+- Network Diagrams (pre-incident and post-incident)
+- Forensic Evidence (disk images, memory dumps, etc.)
+- Code snippets
+- Incident Response Checklist
+- Communication Records
+- Legal and Regulatory Documents (compliance forms, NDAs signed by external consultants, etc.)
+- Glossary and Acronyms
+```
+#### Best Practices
+```
+- Root Cause Analysis: Always aim to find the root cause of the incident to prevent future occurrences.
+- Community Sharing: Share details with a community of defenders to improve  cybersecurity.
+- Regular Updates: Keep all stakeholders updated regularly throughout the incident response process.
+- External Review: Consider third-party cybersecurity specialists to validate findings.
 ```
