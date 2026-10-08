@@ -17,9 +17,20 @@ Security Descriptors & ACL's - file and folder permissions
 ```
 ### Windows Event Logs
 ```
-
+Stored at C:\Windows\System32\winevt\logs
 ```
 ### Execution Artifacts
+```
+Prefetch Files - file paths, execution counts, and timestamps
+Shimcache - file paths, execution timestamps, execution flags (good for recently executed)
+Amcache - database of installed apps and exes with paths, sizes, digital signatures, and timestamps
+UserAssist - registry key with info about programs executed by user like names and execution count
+RunMRU Lists - store info about recently executed programs, like Run and RunOnce keys
+Jump Lists - recently accessed files, folders, and tasks associated with specific applications
+Shortcut (LNK) Files - file paths, timestamps, and user interactions with the target exe
+Recent Items - list of recently opened files
+Windows Event Logs - events related to program execution, application crashes, etc.
+```
 ### Windows Persistence Artifacts
 ### Web Browser Forensics
 ### SRUM
